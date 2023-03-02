@@ -1,0 +1,52 @@
+/* called h1 heading from html file */
+h1{
+    background-color: blanchedalmond;
+    font-style: italic;
+}
+
+div{
+    height: 50vh;
+    width: 100%;
+    background-color: aquamarine;
+    
+    
+}
+
+p{
+    color: brown;
+    font-size: 60px;
+    border: 4px solid black; 
+    border-radius: 20px;
+    /* padding top-bottom, left-right */
+    /* padding: 40px; */
+    padding: 0px 20px 0px 0;
+    /* 1st=top  2nd =right 3rd= bottom 4th left  */
+
+}
+div p.para{
+    color: black;
+
+}
+
+span{
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px;
+    border: 2px solid black;
+    padding: ;
+}
+
+/* target span for cursor effets by hover */
+span:hover{
+    font-size: 60px;
+    background-color: rgb(48, 21, 73);
+    color: rgb(245, 235, 255);
+}
+.copyright{
+    color:rgb(87, 6, 6)
+   
+}
+
+h2{
+    text-shadow: 3px 7px 5px rgb(219, 108, 126);
+}
