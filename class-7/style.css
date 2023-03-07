@@ -1,0 +1,13 @@
+/* 8 point fill control website for circle shape customization */
+div{
+    width: 200px;
+    height: 200px;
+  
+    background-color: rgb(109, 70, 70);
+    border-radius: 52% 10% 50% 10% / 54% 10% 49% 31% ;
+border: 2px solid black;
+}
+p{
+    color: aliceblue;
+    padding: 70px;
+}
