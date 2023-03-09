@@ -1,0 +1,45 @@
+.parent{
+    background-color: rgb(5, 5, 5);
+    height: 100vh;
+    width: 100%;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+     
+}
+.blue{
+    background-color: blue;
+
+}
+.yellow{
+    background-color: yellow;
+    position: fixed;
+    /* position: absolute; */
+    /* apny parent se azad ho gaya (independent)ab jahan chahy move karo isy absolute krny ki waja se  */
+    right: 50px;
+    bottom: 50px;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+    position: relative;
+    /* parent k according move kary ga relative me */
+    right: 50px;
+
+
+}
+.maroon{
+    background-color: maroon;
+
+}
+
+nav{
+    position: sticky;
+    top: 10px;
+    background-color: aqua;
+    width: 100%;
+    height: 40px;
+}
